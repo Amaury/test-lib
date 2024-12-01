@@ -1,0 +1,23 @@
+{
+	"name": "amaury/test-lib",
+	"type": "library",
+	"description": "Test lib",
+	"license": "MIT",
+	"require": {
+		"php": ">=8.0",
+		"ext-intl": "*",
+		"ext-json": "*",
+		"ext-mbstring": "*",
+		"ext-curl": "*"
+	},
+	"config": {
+		"lock": false,
+		"process-timeout": 900,
+		"sort-packages": true
+	},
+	"autoload": {
+		"psr-4": {
+			"TestLib\\": "lib/"
+		}
+	}
+}
